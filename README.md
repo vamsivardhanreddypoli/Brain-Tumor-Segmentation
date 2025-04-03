@@ -1,7 +1,7 @@
 # Brain-Tumor-Segmentation
 An open-source AI framework for automated brain segmentation, abnormality detection, and statistical analysis in neuroimaging using deep learning models like U-Net with Attention Mechanisms and MONAI. Features real-time inference and testing.
 
-1. Introduction
+# 1. Introduction
 
 Objective: Develop an automated AI-based framework for brain tumor segmentation using deep learning.
 
