@@ -8,7 +8,8 @@ Objective: Develop an automated AI-based framework for brain tumor segmentation 
 Significance: Early and accurate detection of brain tumors is crucial for diagnosis and treatment planning.
 
 Approach: Utilized deep learning models (U-Net with Attention Mechanisms) and MONAI for neuroimaging analysis.
-2. Dataset Overview
+
+# 2. Dataset Overview
 
 Dataset Name: BraTS 2020 (Brain Tumor Segmentation Challenge)
 
@@ -36,7 +37,7 @@ Classes in Segmentation Mask:
 
 3: Enhancing tumor
 
-3. Data Preprocessing
+# 3. Data Preprocessing
 
 Loading Data: Used nibabel to load NIfTI files.
 
@@ -46,7 +47,7 @@ Augmentation: Applied transformations (rotation, flipping, scaling) to improve m
 
 Resizing: Standardized image size for model input.
 
-4. Data Visualization
+# 4. Data Visualization
 
 MRI Slices Visualization: Plotted different slices of MRI images.
 
@@ -54,7 +55,7 @@ Segmentation Mask Overlay: Displayed tumor masks overlayed on the images.
 
 3D Rendering: Generated 3D volume representations of the brain scan.
 
-5. Model Development
+# 5. Model Development
 
 Model Architecture: Modified U-Net with Attention Gates for segmentation.
 
@@ -72,7 +73,7 @@ Specificity
 
 Training Strategy: Used MONAI's data pipeline for efficient training.
 
-6. Training and Validation
+# 6. Training and Validation
 
 Splitting Data: Train (70%), Validation (20%), Test (10%).
 
@@ -84,11 +85,11 @@ Trained using TensorFlow/Keras.
 
 Used callbacks (EarlyStopping, ReduceLROnPlateau, ModelCheckpoint).
 
-7. Performance Evaluation
+# 7. Performance Evaluation
 
 Metrics Computation: Dice Score, Precision, Recall, Specificity, Train Accuracy, Validation Loss.
 
-8. Model Inference and Deployment
+# 8. Model Inference and Deployment
 
 Inference Pipeline: Tested the trained model on new MRI scans.
 
